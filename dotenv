@@ -1,0 +1,2 @@
+#It would be the file to be copied as .env 
+REACT_APP_GROGU_RIDE=http://localhost:8080

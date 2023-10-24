@@ -1,0 +1,28 @@
+<div className="ui container">
+	<div>-1 {process.env.DB_HOST} </div>
+	<div>0 {process.env.JOURNAL_STREAM} </div>
+	<div>1 {process.env.REACT_APP_CAR_POOLING_BACK}</div>
+	<Header/>
+	<Status/>
+	<div className="ui container">
+		<Cars/>
+		<CreateJourneys/>
+		<Journeys/>
+	</div>
+	<NotificationContainer/>
+</div>
+
+<>
+	<Header></Header>
+	<div className="card">
+		<button onClick={() => setCount((count) => count + 1)}>
+			count is {count}
+		</button>
+		<p>
+			Edit <code>src/App.tsx</code> and save to test HMR
+		</p>
+	</div>
+	<p className="read-the-docs">
+		Click on the Vite and React logos to learn more
+	</p>
+</>

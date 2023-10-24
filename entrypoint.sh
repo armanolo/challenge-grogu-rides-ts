@@ -1,0 +1,2 @@
+echo "ENV REACT_APP_GROGU_RIDE => $REACT_APP_GROGU_RIDE"
+/bin/sh change_env_value.sh .env REACT_APP_GROGU_RIDE $REACT_APP_GROGU_RIDE 
